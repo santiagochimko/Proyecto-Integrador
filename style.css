@@ -13,17 +13,17 @@
 }
 
 h1 {
-  color: #2a3342;
+  color: var(--darkGray);
   font-size: 38px;
 }
 
 h2 {
-  color: #2a3342;
+  color: var(--darkGray);
   font-size: 28px;
 }
 
 p {
-  color: #93a1b6;
+  color: var(--gray);
   font-size: 14px;
 }
 
@@ -43,7 +43,7 @@ section#features {
 }
 
 .features-container img {
-  background-color: #2ad167;
+  background-color: var(--softGreen);
   padding: 10px;
   width: 50px;
   height: 50px;
