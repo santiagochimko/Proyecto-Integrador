@@ -1,5 +1,6 @@
 :root {
   --softGreen: #2ad167;
+  --lighterGreen: #D8F2E3;
   --darkGray: #2a3342;
   --gray: #93a1b6;
   --softGray: #f7f8f9;
@@ -28,47 +29,6 @@ p {
   font-size: 14px;
 }
 
-
-section#features {
-  text-align: center;
-  padding: 0 15px;
-}
-
-.features-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
-.features-container img {
-  background-color: var(--softGreen);
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-}
-
-section#prices {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 0 15px;
-}
-
-section#prices h1{
-  margin-bottom: 15px;
-}
-section#prices p{
-  margin-bottom: 15px;
-}
-
-.prices-card{
-  margin: 20px 0;
-}
 .header-container {
   display: flex;
   flex-direction: column;
@@ -134,4 +94,94 @@ section#prices p{
   position: absolute;
   right: 10px;
   bottom: 0;
+}
+
+section#features {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+.features-container img {
+  background-color: var(--softGreen);
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+section#prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0 15px;
+}
+
+section#prices h1 {
+  margin-bottom: 15px;
+}
+
+section#prices p {
+  margin-bottom: 15px;
+}
+
+.prices-card {
+  margin: 20px 0;
+  padding: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background-color: var(--softGray);
+}
+
+.prices-card h2 {
+  font-size: 16px;
+  color: var(--softGreen);
+  margin-bottom: 10px;
+}
+
+.prices-card h3 {
+  font-size: 32px;
+  color: var(--darkGray);
+  margin-bottom: 10px;
+}
+
+.prices-card .item {
+  background-color: var(--lighterGreen);
+  color: var(--softGreen);
+  padding: 6px;
+  border-radius: 15px;
+  max-width: fit-content;
+  font-size: 0.875rem;
+}
+ section#prices ul{
+  list-style-image: url(assets/Icons/list-icon.svg);
+ }
+
+.prices-card .btn-container {
+  width: 100%;
+}
+
+.prices-card .btn-container .btn {
+  margin-top: 15px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+.prices-card .btn-container .btn-green {
+  background-color: var(--softGreen);
+  color: var(--white);
 }
