@@ -1,0 +1,12 @@
+:root {
+  --softGreen: #2ad167;
+  --darkGray: #2a3342;
+  --gray: #93a1b6;
+  --softGray: #f7f8f9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
