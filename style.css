@@ -9,6 +9,42 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Poppins', 'Space Grotesk', sans-serif;
+}
+
+h1 {
+  color: #2a3342;
+}
+
+h2 {
+  color: #2a3342;
+  font-size: 28px;
+}
+
+p {
+  color: #93a1b6;
+  font-size: 14px;
+}
+
+
+section#features {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+.features-container img {
+  background-color: #2ad167;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
 }
