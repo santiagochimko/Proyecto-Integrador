@@ -84,6 +84,19 @@ button {
   cursor: pointer;
 }
 
+.nav ul li a {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.nav ul li a:hover, .active {
+  color: var(--softGreen);
+}
+
+.nav ul li a.active {
+  color: var(--softGreen);
+}
+
 .nav .btn {
   padding: 10px 15px;
 }
@@ -263,11 +276,11 @@ section#prices ul {
   font-weight: bold;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .header-container {
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 15px;    
+    padding: 0 15px;
     padding-top: 150px;
   }
 
