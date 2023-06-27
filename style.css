@@ -38,7 +38,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 80px 15px;
+  padding: 150px 15px;
   color: var(--darkGray);
 }
 
@@ -264,7 +264,8 @@ section#prices ul {
   .header-container {
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 15px;
+    padding: 0 15px;    
+    padding-top: 150px;
   }
 
   .description {
