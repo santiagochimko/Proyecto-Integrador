@@ -1,0 +1,93 @@
+:root {
+    --softGreen: #2ad167;
+    --lighterGreen: #d8f2e3;
+    --darkGray: #2a3342;
+    --gray: #93a1b6;
+    --softGray: #f7f8f9;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Space Grotesk", sans-serif;
+}
+
+body {
+    background-color: var(--darkGray);
+}
+
+h1 {
+    color: var(--softGray);
+    font-size: 38px;
+}
+
+p {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+
+section#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    background-color: var(--softGreen);
+    width: 70px;
+    padding: 15px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 50px;
+    width: 70vw;
+}
+
+label {
+    color: var(--softGray);
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--softGreen);
+    color: white;
+    padding: 14px 20px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+span.psw a {
+    float: right;
+    color: var(--softGreen);
+    text-decoration: none;
+}
+
+@media screen and (min-width:1024px) {
+    form {
+        width: 40vw;
+    }
+}
