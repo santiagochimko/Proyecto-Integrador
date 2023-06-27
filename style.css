@@ -81,6 +81,7 @@ button {
 
 .nav ul li {
   list-style: none;
+  cursor: pointer;
 }
 
 .nav .btn {
@@ -236,6 +237,7 @@ section#prices ul {
 
 .footer ul li {
   list-style-type: none;
+  cursor: pointer;
 }
 
 .footer ul {
@@ -248,6 +250,7 @@ section#prices ul {
 
 .footer hr {
   height: 1px;
+  opacity: 0.3;
   width: 90%;
   background-color: var(--gray);
 }
@@ -299,5 +302,28 @@ section#prices ul {
     margin-bottom: 50px;
     width: 100%;
     justify-content: space-around;
+  }
+
+  .nav {
+    height: 100px;
+  }
+
+  .nav ul {
+    gap: 35px;
+  }
+
+  .nav ul li {
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 30px;
+  }
+
+  .footer {
+    gap: 30px;
+  }
+
+  .footer ul {
+    justify-content: space-around;
+    width: 50%;
   }
 }
