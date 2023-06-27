@@ -1,4 +1,3 @@
-// Obtén una referencia al botón "Ingresar"
 const loginButton = document.getElementById('login');
 const modalContainer = document.getElementById('modalContainer');
 
