@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -26,12 +25,14 @@
         <input type="button">
     </nav>
     <header class="header-container">
-        <p class="item">NUEVO</p>
-        <h1>La plataforma para las empresas del futuro</h1>
-        <p>Productos pensados para los negocios del próximo siglo</p>
-        <div class="btn-container">
-            <button class="btn btn-green" type="button">Solicitar demo</button>
-            <button class="btn btn-white" type="button">Registrarme</button>
+        <div class="description">
+            <p class="item">NUEVO</p>
+            <h1>La plataforma para las empresas del futuro</h1>
+            <p>Productos pensados para los negocios del próximo siglo</p>
+            <div class="btn-container">
+                <button class="btn btn-green" type="button">Solicitar demo</button>
+                <button class="btn btn-white" type="button">Registrarme</button>
+            </div>
         </div>
         <div class="images">
             <img class="circle" src="assets/Header/circle3-yellow.svg" alt="">
@@ -59,52 +60,55 @@
         </section>
         <section id="prices">
             <h1>Precios flexibles que escalan contigo</h1>
-            <p>Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 días en todos nuestros planes.</p>
-            <article class="prices-card">
-                <p class="item">PRECIO</p>
-                <h2>Plan básico</h2>
-                <h3><sup>$</sup>10 / mes</h3>
-                <p>Facturado anualmente</p>
-                <ul>
-                    <li>1GB de almacenamiento</li>
-                    <li>Dashboard completo</li>
-                    <li>Asistencia por correo</li>
-                    <li>Hasta 10 miembros</li>
-                </ul>
-                <div class="btn-container">                    
-                    <input type="button" value="Solicitar Demo" class="btn btn-green">
-                </div>
-            </article>
-            <article class="prices-card">
-                <p class="item">PRECIO</p>
-                <h2>Plan freelancer</h2>
-                <h3><sup>$</sup>99 / mes</h3>
-                <p>Facturado anualmente</p>
-                <ul>
-                    <li>Características básicas</li>
-                    <li>Asistencia preferencial</li>
-                    <li>100GB de almacenamiento</li>
-                    <li>Hasta 100 miembros</li>
-                </ul>
-                <div class="btn-container">                    
-                    <input type="button" value="Solicitar Demo" class="btn btn-green">
-                </div>
-            </article>
-            <article class="prices-card">
-                <p class="item">PRECIO</p>
-                <h2>Plan empresas</h2>
-                <h3><sup>$</sup>799 / mes</h3>
-                <p>Facturado anualmente</p>
-                <ul>
-                    <li>Características freelancer</li>
-                    <li>1TB de almacenamiento</li>
-                    <li>Asistencia telefónica 24/7</li>
-                    <li>Miembros ilimitados</li>
-                </ul>
-                <div class="btn-container">                    
-                    <input type="button" value="Solicitar Demo" class="btn btn-green">
-                </div>
-            </article>
+            <p>Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 días en todos nuestros
+                planes.</p>
+            <div class="card-container">
+                <article class="prices-card">
+                    <p class="item">PRECIO</p>
+                    <h2>Plan básico</h2>
+                    <h3><sup>$</sup>10 / mes</h3>
+                    <p>Facturado anualmente</p>
+                    <ul>
+                        <li>1GB de almacenamiento</li>
+                        <li>Dashboard completo</li>
+                        <li>Asistencia por correo</li>
+                        <li>Hasta 10 miembros</li>
+                    </ul>
+                    <div class="btn-container">
+                        <button class="btn btn-green" type="button">Solicitar demo</button>
+                    </div>
+                </article>
+                <article class="prices-card">
+                    <p class="item">PRECIO</p>
+                    <h2>Plan freelancer</h2>
+                    <h3><sup>$</sup>99 / mes</h3>
+                    <p>Facturado anualmente</p>
+                    <ul>
+                        <li>Características básicas</li>
+                        <li>Asistencia preferencial</li>
+                        <li>100GB de almacenamiento</li>
+                        <li>Hasta 100 miembros</li>
+                    </ul>
+                    <div class="btn-container">
+                        <button class="btn btn-green" type="button">Solicitar demo</button>
+                    </div>
+                </article>
+                <article class="prices-card">
+                    <p class="item">PRECIO</p>
+                    <h2>Plan empresas</h2>
+                    <h3><sup>$</sup>799 / mes</h3>
+                    <p>Facturado anualmente</p>
+                    <ul>
+                        <li>Características freelancer</li>
+                        <li>1TB de almacenamiento</li>
+                        <li>Asistencia telefónica 24/7</li>
+                        <li>Miembros ilimitados</li>
+                    </ul>
+                    <div class="btn-container">
+                        <button class="btn btn-green" type="button">Solicitar demo</button>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -125,5 +129,7 @@
         <p>2022 Flex. Un producto ficticio de Senpai.</p>
     </footer>
 </body>
+
+<link rel="stylesheet" href="script.js">
 
 </html>

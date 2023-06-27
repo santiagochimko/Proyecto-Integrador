@@ -30,56 +30,22 @@ li {
   font-size: 14px;
 }
 
-<<<<<<< HEAD
-=======
-section#features {
-  text-align: center;
-  padding: 0 15px;
+button {
+  cursor: pointer;
 }
 
-.features-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
-.features-container img {
-  background-color: var(--softGreen);
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-}
-
-section#prices {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 0 15px;
-}
-
-section#prices h1 {
-  margin-bottom: 15px;
-}
-section#prices p {
-  margin-bottom: 15px;
-}
-
-.prices-card {
-  margin: 20px 0;
-}
-
->>>>>>> footer
 .header-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 80px 15px;
   color: var(--darkGray);
+}
+
+.description {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .header-container .btn-container {
@@ -209,9 +175,10 @@ section#prices p {
   max-width: fit-content;
   font-size: 0.875rem;
 }
- section#prices ul{
+
+section#prices ul {
   list-style-image: url(assets/Icons/list-icon.svg);
- }
+}
 
 .prices-card .btn-container {
   width: 100%;
@@ -263,4 +230,45 @@ section#prices p {
   gap: 10px;
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media screen and (min-width:1024px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 15px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 44%;
+  }
+
+  .header-container .images .principal {
+    width: 530px;
+  }
+
+  section#features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+  }
+
+  .features-container {
+    align-self: flex-start;
+    width: 385px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    justify-content: space-around;
+  }
 }
