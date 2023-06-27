@@ -35,6 +35,14 @@ section#login {
     justify-content: center;
     height: 100vh;
 }
+#close{
+    background-color: unset;
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    width: 60px;
+    cursor: pointer;
+}
 
 img {
     background-color: var(--softGreen);
@@ -43,6 +51,7 @@ img {
     border-radius: 13px;
     margin-bottom: 20px;
 }
+
 
 form {
     margin-top: 50px;
